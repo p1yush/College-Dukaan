@@ -3,17 +3,14 @@ import dotenv from "dotenv";
 
 // Databse connection import
 import connectDb from "./database/connection";
+// importing routes
+import userRoutes from "./Routes/user/userRoutes";
 
 const app = express();
 dotenv.config();
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.status(200).json({
-    succes: true,
-    message: "Welcome to College-Dukan",
-  });
-});
+app.use("/api/v1/user", userRoutes);
 
 const PORT = 4000;
 
