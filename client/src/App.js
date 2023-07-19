@@ -9,10 +9,10 @@ import { HomePage } from './main/HomePage';
 function App() {
   return (
   <>
-     <Routes> 
+    <Routes> 
       <Route exact path="/"  element={ <HomePage />}/> 
-      <Route exact path="/login" element={ <Login />}/>
-      <Route exact path="/register" element={ <Register />}/> 
+      <Route exact path="/Login" element={ <Login />}/> 
+      <Route exact path="/Register" element={ <Register />}/> 
     </Routes> 
   </>
   );
