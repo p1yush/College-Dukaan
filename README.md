@@ -1,1 +1,1 @@
-# Collage-Dukan
+# College-Dukaan
