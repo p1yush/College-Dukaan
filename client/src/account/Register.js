@@ -9,9 +9,7 @@ export const Register = () => {
      <div className="min-h-screen sm:flex sm:flex-row mx-0 justify-evenly">
        <div className="flex-col flex  self-center p-10 sm:max-w-5xl xl:max-w-2xl  z-10">
          <div className="self-start hidden lg:flex flex-col  text-gray-800">
-           <img src="" className="mb-3" />
-           <h1 className="mb-3 tracking-wide font-bold text-6xl">College</h1>
-           <h1 className="mb-3 tracking-wide font-bold text-yellow-400 text-6xl">Dukaan</h1>
+           <img src="images/logo.png" alt="logo" className="mb-3" />
          </div>
        </div>
        <div className="flex justify-center self-center  z-10">
